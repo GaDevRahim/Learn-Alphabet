@@ -12,13 +12,6 @@ public class ControlCallChar : MonoBehaviour
         CountBalloon = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     private void OnTriggerExit(Collider collision)
     {
         CountBalloon++;
@@ -28,7 +21,4 @@ public class ControlCallChar : MonoBehaviour
             CountBalloon = 0;
         }
     }
-
-
-
 }
