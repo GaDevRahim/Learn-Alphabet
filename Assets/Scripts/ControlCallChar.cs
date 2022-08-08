@@ -5,7 +5,6 @@ public class ControlCallChar : MonoBehaviour
     GameManager gameManager;
     int CountBalloon;
 
-    // Start is called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();

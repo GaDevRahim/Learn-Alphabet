@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PrefabsMove : MonoBehaviour
 {
-
     GameManager gameManager;
 
     Vector2 basicPosi;
@@ -15,7 +14,6 @@ public class PrefabsMove : MonoBehaviour
 
     int count = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
@@ -65,5 +63,4 @@ public class PrefabsMove : MonoBehaviour
         int whichOgj = Mathf.RoundToInt((transform.position.x / 5) + 1);
         gameManager.TestChar(whichOgj);
     }
-    
 }

@@ -6,7 +6,6 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-
     [Header("Balloons")]
     [SerializeField] List<GameObject> balloonsList;
     [SerializeField] List<PrefabsMove> prefabsMoveScripts;
@@ -34,10 +33,8 @@ public class GameManager : MonoBehaviour
 
     internal bool GameOver;
 
-    // Start is called before the first frame update
     void Start()
     {
-        //Application.targetFrameRate = 60;
         GameOver = false;
         SetAllComponent();
         SetCharsText();

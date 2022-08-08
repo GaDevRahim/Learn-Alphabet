@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
-
     GameManager gameManager;
     [Header("UI Component"), Space(10)]
     [SerializeField] Slider scoreBar;
